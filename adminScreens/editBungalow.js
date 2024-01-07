@@ -168,7 +168,7 @@ console.log(phoneNum);
     {/* Modern Görünümlü Input Örnekleri */}
     <Input
       placeholder="Ev Tipi"
-      leftIcon={{ type: 'font-awesome', name: 'user' }}
+      leftIcon={{ type: 'font-awesome', name: 'home' }}
       containerStyle={styles.inputContainer}
       value={bungalowname}
       onChangeText={text => setname(text)}
@@ -176,7 +176,7 @@ console.log(phoneNum);
     <Input
       placeholder="Kişi Sayısı"
       keyboardType="numeric"
-      leftIcon={{ type: 'font-awesome', name: 'envelope' }}
+      leftIcon={{ type: 'font-awesome', name: 'users' }}
       containerStyle={styles.inputContainer}
       value={sayi}
       onChangeText={text => setsayi(text)}
@@ -184,7 +184,7 @@ console.log(phoneNum);
     <Input
       placeholder="Gecelik Ücret"
       keyboardType="numeric"
-      leftIcon={{ type: 'font-awesome', name: 'lock' }}
+      leftIcon={{ type: 'font-awesome', name: 'money' }}
       containerStyle={styles.inputContainer}
       value={gecelik}
       onChangeText={text => setgecelik(text)}
@@ -201,8 +201,8 @@ console.log(phoneNum);
         title="Resim Seç"
         type="outline"
         onPress={resimsec}
-        buttonStyle={styles.button}
-        titleStyle={styles.buttonText}
+        style={{with:'100%'}}
+        titleStyle={{color:'green'}}
       />
       <Button disabled={uploading}
       onPress={handleCreateRoom} 
@@ -228,11 +228,13 @@ const styles = StyleSheet.create({
     width: '80%',
   },
   button: {
-    marginVertical: 20,
-    width:'100%'
+   
+    width:'100%',
+    marginTop:'14px',
+    backgroundColor:'green'
   },
   buttonText: {
-    color: 'blue',
+    color: 'white',
   }
 });
 

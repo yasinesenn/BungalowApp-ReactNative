@@ -79,7 +79,7 @@ const AddBungalow = () => {
   const addNewBungalow = async (roomData) => {
     try {
       const docRef = await addDoc(collection(db, 'rooms'), roomData);
-      Alert.alert("Room was created.");
+      Alert.alert("Bungalow Oluşturuldu.");
       navigation.replace('route');
       
     } catch (error) {
@@ -134,7 +134,7 @@ const AddBungalow = () => {
  
     <Input
       placeholder="Ev Tipi"
-      leftIcon={{ type: 'font-awesome', name: 'user' }}
+      leftIcon={{ type: 'font-awesome', name: 'home' }}
       containerStyle={styles.inputContainer}
       value={bungalowName}
       onChangeText={text => setBungalowName(text)}
@@ -142,7 +142,7 @@ const AddBungalow = () => {
     <Input
       placeholder="Kişi Sayısı"
       keyboardType="numeric"
-      leftIcon={{ type: 'font-awesome', name: 'envelope' }}
+      leftIcon={{ type: 'font-awesome', name: 'users' }}
       containerStyle={styles.inputContainer}
       value={sayi}
       onChangeText={text => setSayi(text)}
@@ -150,7 +150,7 @@ const AddBungalow = () => {
     <Input
       placeholder="Gecelik Ücret"
       keyboardType="numeric"
-      leftIcon={{ type: 'font-awesome', name: 'lock' }}
+      leftIcon={{ type: 'font-awesome', name: 'money' }}
       containerStyle={styles.inputContainer}
       value={gecelikprice}
       onChangeText={text => setGecelikPrice(text)}

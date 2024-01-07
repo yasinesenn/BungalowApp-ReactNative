@@ -14,7 +14,7 @@ const AdminProfile = () => {
   useLayoutEffect(() => {
     navigation.setOptions({
         headerShown: true,
-              title: "Favorilerim",
+              title: "Profil",
               headerTitleStyle: {
                 color: "green",
                 fontWeight: "bold",

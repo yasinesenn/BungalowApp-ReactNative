@@ -1,12 +1,12 @@
 import { initializeApp } from "firebase/app";
-import { getFirestore,collection,addDoc,getDoc ,doc,setDoc} from "firebase/firestore";
+import { addDoc,getDoc,  getFirestore,collection,doc,setDoc} from "firebase/firestore";
 import { getStorage, getDownloadURL,uploadFile, ref} from "firebase/storage";
 
 import { initializeAuth, getReactNativePersistence ,getUser} from 'firebase/auth';
 import ReactNativeAsyncStorage from '@react-native-async-storage/async-storage';
 
 
-// Initialize Firebase
+
 const firebaseConfig = {
   apiKey: "AIzaSyABsMLQr7_MMYp4YBmRXYPVJlnkDTpn9Zw",
   authDomain: "bungalowreact.firebaseapp.com",
