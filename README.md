@@ -1,10 +1,10 @@
-- Projeyi Çalışƨrabilmek İçin Kullanmanız Gereken Komutlar:
-- $ git clone hƩps://github.com/yasinesenn/BungalowApp-ReactNaƟve.git
-- $ cd BungalowApp-ReactNaƟve
+- Projeyi Çalıştırabilmek İçin Kullanmanız Gereken Komutlar:
+- $ git clone https://github.com/yasinesenn/BungalowApp-ReactNative.git
+- $ cd BungalowApp-ReactNative
 - $ npm i
 - $ npm start
-- Program çalışƨktan sonra gelen QR kodu okutarak projeyi telefonunuzda görüntüleyebilirsiniz.
-- Not: Projeyi çalışƨrdığınız bilgisayar ile kullandığınız telefon aynı ağa bağlı olmalıdır.
+- Program çalıştıktan sonra gelen QR kodu okutarak projeyi telefonunuzda görüntüleyebilirsiniz.
+- Not: Projeyi çalıştırdığınız bilgisayar ile kullandığınız telefon aynı ağa bağlı olmalıdır.
 - Kullanıcı Hesapları:
 - Email: sau@sau.com – Rol (User)
 - Şifre: sau123456
