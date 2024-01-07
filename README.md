@@ -8,6 +8,4 @@ Not: Projeyi çalışƨrdığınız bilgisayar ile kullandığınız telefon ayn
 Kullanıcı Hesapları:
 Email: sau@sau.com – Rol (User)
 Şifre: sau123456
-*********************************
-Email: admin@sau.com – Rol (Admin)
-Şifre: admin123456
+
